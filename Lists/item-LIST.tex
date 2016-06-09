@@ -36,6 +36,8 @@
   \append\MYmark{ ~VALUABLE~ }}
 \def\steal{%
   \append\MYmark{ ~HARD TO STEAL~ }}
+\def\NonTrans{%
+  \append\MYmark{ ~NON-TRANSFERABLE~ }}
 \def\bulky#1{%
   \s\MYbulky{#1}%
   \append\MYmark{\mbox{ ~\MYbulky-Hand~Bulky~ }}}
@@ -168,3 +170,9 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\NEW{Item}{\iJesterTass}{
+  \s\MYname	{White Tass}
+  \s\MYnumber	{000}
+  \s\MYtext	{Tass that no one else can see.}
+  \NonTrans{}
+  }

@@ -1,2 +1,2 @@
-\edef\gamepath{"C:/Users/Jeremy/Desktop/Larps/Emperia"}
+\edef\gamepath{"C:/Users/Acata/Desktop/Larps/Normal-Day-Imperia"}
 
